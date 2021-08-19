@@ -1,4 +1,4 @@
-#    Copyright (c) 2021 Infinity BOTs <https://t.me/Infinity_BOTs>
+#    Copyright (c) 2021 Theekshana BOTs <https://t.me/Theekshana_Official>
  
 #    This program is free software: you can redistribute it and/or modify  
 #    it under the terms of the GNU General Public License as published by  
@@ -46,7 +46,7 @@ Jebot = Client(
 @Jebot.on_message(filters.private & ~filters.bot & ~filters.command("help") & ~filters.command("start") & ~filters.command("s"))
 async def song(client, message):
  #ImJanindu #JEBotZ
-    cap = "@JEBotZ"
+    cap = "@Theekshana_Official"
     url = message.text
     rkp = await message.reply("Processing...")
     search = SearchVideos(url, offset=1, mode="json", max_results=1)
@@ -215,14 +215,14 @@ async def start(client, message):
    if message.chat.type == 'private':
        await Jebot.send_message(
                chat_id=message.chat.id,
-               text="""<b>Hey There, I'm a Song Downloader Bot. A bot by @JEBotZ.
+               text="""<b>Hey There👋🏻, I'm a Song Downloader Bot. A bot by @Theekshana_Official.
 Hit help button to find out more about how to use me</b>""",   
                             reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
                                             "Help", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "Channel", url="https://t.me/Infinity_BOTs")
+                                            "BOTs Channel", url="https://t.me/Theekshana_Official")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -252,7 +252,7 @@ async def help(client, message):
         await Jebot.send_message(
                chat_id=message.chat.id,
                text="""<b>Send a song name to download song
-@JEBotZ</b>""",
+@Theekshana_Official</b>""",
             reply_to_message_id=message.message_id
         )
     else:
@@ -273,7 +273,8 @@ async def button(Jebot, update):
 print(
     """
 Bot Started!
-Join @Infinity_BOTs
+Hey, I'm Song Downloader Bot 🎵
+@Theekshana_Official 🇱🇰
 """
 )
 
