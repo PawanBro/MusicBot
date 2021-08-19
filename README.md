@@ -1,6 +1,6 @@
 # Telegram Song Download Bot ❤
 
-## You can download any song using this bot. Can be found in telegram as [@JESongBot](https://t.me/JESongBot)
+## You can download any song using this bot. Can be found in telegram as [@PVSongBot](http://t.me/PVSongBot)
 
 ### Commands:
 - In Groups - `/song <song name>`
@@ -12,12 +12,11 @@
 
 ### Credits:
 
-- [Infinity BOTs](https://t.me/Infinity_BOTs)
-
-- [Pyrogram Library](https://github.com/pyrogram/pyrogram)
+- [Theekshana BOTs](https://t.me/Theekshana_Official)
+- 
 
 ### Developers:
 
-- [@ImJanindu](https://t.me/ImJanindu)
+- [Pawan Theekshana](https://t.me/Pawan_Theekshana)
 
-- [@InukaASiTH](https://t.me/InukaASiTH)
+- [Theekshana](https://t.me/ImTheekshana)
