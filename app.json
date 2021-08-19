@@ -1,7 +1,7 @@
 {
     "name": "Song Downloader Bot",
     "description": "A bot that can download song you want.",
-    "logo": "https://telegra.ph/file/4501aa5bd83bdcefa658d.jpg",
+    "logo": "https://telegra.ph/file/718a01a2e0c49ab997a17.jpg",
     "keywords": [
         "Music",
         "Songdl",
@@ -9,8 +9,8 @@
         "JE Bots"
     ],
     "website": "https://infinityje.com",
-    "repository": "https://github.com/ImJanindu/Songdl-tgbot",
-    "success_url": "https://t.me/Infinity_BOTs",
+    "repository": "https://github.com/PawanBro/MusicBot",
+    "success_url": "https://t.me/Theekshana_Official",
     "env": {
         "TG_BOT_TOKEN": {
             "description": "You Telegram Bot Token from @BotFather",
